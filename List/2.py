@@ -1,8 +1,6 @@
 from flask import Flask, render_template, redirect,request
 from flask_mysqldb import MySQL
-import redis
 import yaml
-from peewee import *
 from model import app, mysql
 
 
