@@ -23,12 +23,7 @@ def index():
     return redirect('/class3')
   return render_template('class2.html')
 
-
-
-
 @app.route('/class3')
-
-
 def show():
   cur = mysql.connection.cursor()
   h = cur.execute("SELECT * FROM class")
